@@ -46,6 +46,10 @@
 		{
 			"Name": "OnlineSubsystemOculus",
 			"Enabled": true
+		},
+		{
+			"Name": "RiderLink",
+			"Enabled": false
 		}
 	]
 }
