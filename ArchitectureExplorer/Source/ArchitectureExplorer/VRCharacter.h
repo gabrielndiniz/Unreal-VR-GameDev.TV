@@ -27,7 +27,15 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-private:
+private: //functions
+
+	void UpdateDestinationMarker();
+	
+	void MoveForward(float throttle);
+	void MoveRight(float throttle);
+	
+	
+private: //variables
 
 	UPROPERTY(VisibleAnywhere)
 	class UCameraComponent* Camera;
@@ -35,13 +43,16 @@ private:
 	UPROPERTY(VisibleAnywhere)
 	class USceneComponent* VRRoot;
 
-	//Input functions
-	void MoveForward(float throttle);
-	void MoveRight(float throttle);
+	UPROPERTY(VisibleAnywhere)
+	class UStaticMeshComponent* DestinationMarker;
 
-	//Input variables
+	UPROPERTY(EditAnywhere)
 	float speed = 1000.f;
 
-	
+	UPROPERTY(EditAnywhere)
+	float MaxTeleportDistance = 1000;
+
+	UPROPERTY()
+	FVector MarkerDistance = FVector(0,0,0);
 
 };
