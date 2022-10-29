@@ -31,13 +31,17 @@ private:
 
 	UPROPERTY(VisibleAnywhere)
 	class UCameraComponent* Camera;
+	
+	UPROPERTY(VisibleAnywhere)
+	class USceneComponent* VRRoot;
 
 	//Input functions
 	void MoveForward(float throttle);
 	void MoveRight(float throttle);
 
 	//Input variables
-	FVector CurrentVelocity;
 	float speed = 1000.f;
+
+	
 
 };
