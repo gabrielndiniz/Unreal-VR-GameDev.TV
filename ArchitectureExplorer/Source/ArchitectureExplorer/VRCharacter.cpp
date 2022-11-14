@@ -3,7 +3,10 @@
 
 #include "VRCharacter.h"
 #include "Camera/CameraComponent.h"
+#include "Camera/PlayerCameraManager.h"
 #include "Components/StaticMeshComponent.h"
+#include "TimerManager.h"
+#include "Components/CapsuleComponent.h"
 
 // Sets default values
 AVRCharacter::AVRCharacter()
@@ -17,7 +20,7 @@ AVRCharacter::AVRCharacter()
 
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(VRRoot);
-	
+		
 	DestinationMarker = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("DestinationMarker"));
 	DestinationMarker->SetupAttachment(GetRootComponent());
 	
@@ -28,6 +31,15 @@ void AVRCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	DestinationMarker->SetVisibility(false);
+
+	PlayerController = Cast<APlayerController>(GetController());
+
+	if (!PlayerController)
+	{
+		return;
+	}
+	CameraManager = PlayerController->PlayerCameraManager;
+	
 }
 
 // Called every frame
@@ -73,6 +85,7 @@ void AVRCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	// Respond every frame to the values of our two movement axes, "MoveX" and "MoveY".
 	PlayerInputComponent->BindAxis(TEXT("Forward"), this, &AVRCharacter::MoveForward);
 	PlayerInputComponent->BindAxis(TEXT("Right"), this, &AVRCharacter::MoveRight);
+	PlayerInputComponent->BindAction(TEXT("Teleport"),IE_Released, this, &AVRCharacter::BeginTeleport);
 
 }
 
@@ -88,3 +101,39 @@ void AVRCharacter::MoveRight(float throttle)
 	// Move at speed right or left
 	AddMovementInput(throttle * Camera->GetRightVector() * speed);
 }
+
+void AVRCharacter::BeginTeleport()
+{
+	FadeOut();
+	GetWorldTimerManager().SetTimer(TimeHandle, FadeOutDuration,false,-1);
+	FinishTeleport();
+}
+
+void AVRCharacter::FinishTeleport()
+{
+	FVector Destination =DestinationMarker->GetComponentLocation();
+	Destination.Z = Destination.Z+GetCapsuleComponent()->GetScaledCapsuleHalfHeight();
+	SetActorLocation(Destination);
+	FadeIn();
+}
+
+
+void AVRCharacter::FadeOut()
+{
+	if (!PlayerController)
+	{
+		return;
+	}
+	CameraManager->StartCameraFade(0,1,FadeInDuration, FLinearColor::Black,bFadeInAudio,true);
+}
+
+void AVRCharacter::FadeIn()
+{
+	if (!PlayerController)
+	{
+		return;
+	}
+	CameraManager->StartCameraFade(1,0,FadeOutDuration, FLinearColor::Black,bFadeOutAudio,true);
+}
+
+

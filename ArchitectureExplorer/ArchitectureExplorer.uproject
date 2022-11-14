@@ -22,12 +22,16 @@
 			]
 		},
 		{
-			"Name": "OculusVR",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Android"
-			]
+			"Name": "OculusAudio",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemOculus",
+			"Enabled": true
+		},
+		{
+			"Name": "RiderLink",
+			"Enabled": false
 		},
 		{
 			"Name": "OpenXR",
@@ -40,16 +44,12 @@
 			]
 		},
 		{
-			"Name": "OculusAudio",
-			"Enabled": true
-		},
-		{
-			"Name": "OnlineSubsystemOculus",
-			"Enabled": true
-		},
-		{
-			"Name": "RiderLink",
-			"Enabled": false
+			"Name": "OculusVR",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Android"
+			]
 		}
 	]
 }

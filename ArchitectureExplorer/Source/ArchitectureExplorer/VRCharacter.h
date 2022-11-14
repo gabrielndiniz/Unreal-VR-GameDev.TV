@@ -7,6 +7,7 @@
 #include "GameFramework/Character.h"
 #include "VRCharacter.generated.h"
 
+
 UCLASS()
 class ARCHITECTUREEXPLORER_API AVRCharacter : public ACharacter
 {
@@ -33,12 +34,27 @@ private: //functions
 	
 	void MoveForward(float throttle);
 	void MoveRight(float throttle);
+
+	void BeginTeleport();
+	void FinishTeleport();
+
+	void FadeOut();
+	void FadeIn();
 	
 	
 private: //variables
 
 	UPROPERTY(VisibleAnywhere)
 	class UCameraComponent* Camera;
+
+	UPROPERTY()
+	APlayerController* PlayerController;
+
+	UPROPERTY()
+	APlayerCameraManager* CameraManager;
+
+	UPROPERTY()
+	FTimerHandle TimeHandle;
 	
 	UPROPERTY(VisibleAnywhere)
 	class USceneComponent* VRRoot;
@@ -54,5 +70,16 @@ private: //variables
 
 	UPROPERTY()
 	FVector MarkerDistance = FVector(0,0,0);
+	
+	UPROPERTY(EditAnywhere)
+	float FadeInDuration = 1;
+	
+	UPROPERTY(EditAnywhere)
+	float FadeOutDuration = 1;
+	
+	UPROPERTY(EditAnywhere)
+	bool bFadeInAudio = false;
 
+	UPROPERTY(EditAnywhere)
+	bool bFadeOutAudio = false;
 };
