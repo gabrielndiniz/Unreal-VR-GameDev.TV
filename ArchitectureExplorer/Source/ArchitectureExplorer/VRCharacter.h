@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "NavigationSystem.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/Character.h"
 #include "VRCharacter.generated.h"
@@ -30,6 +31,7 @@ public:
 
 private: //functions
 
+	bool FindTeleportDestination(FVector &OutLocation);
 	void UpdateDestinationMarker();
 	
 	void MoveForward(float throttle);
@@ -38,8 +40,9 @@ private: //functions
 	void BeginTeleport();
 	void FinishTeleport();
 
-	void FadeOut();
-	void FadeIn();
+	void StartFade(float FromAlpha, float ToAlpha);
+
+	
 	
 	
 private: //variables
@@ -82,4 +85,10 @@ private: //variables
 
 	UPROPERTY(EditAnywhere)
 	bool bFadeOutAudio = false;
+
+	UPROPERTY()
+	UNavigationSystemV1* NavSystem;
+
+	UPROPERTY()
+	FVector TeleportProjectionExtent = FVector(100,100,100);
 };

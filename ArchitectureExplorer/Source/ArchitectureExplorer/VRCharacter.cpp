@@ -2,6 +2,7 @@
 
 
 #include "VRCharacter.h"
+#include "NavigationSystem.h"
 #include "Camera/CameraComponent.h"
 #include "Camera/PlayerCameraManager.h"
 #include "Components/StaticMeshComponent.h"
@@ -32,6 +33,8 @@ void AVRCharacter::BeginPlay()
 	Super::BeginPlay();
 	DestinationMarker->SetVisibility(false);
 
+	NavSystem = UNavigationSystemV1::GetCurrent(GetWorld());
+	
 	PlayerController = Cast<APlayerController>(GetController());
 
 	if (!PlayerController)
@@ -58,17 +61,41 @@ void AVRCharacter::Tick(float DeltaTime)
 	
 }
 
-void AVRCharacter::UpdateDestinationMarker()
+bool AVRCharacter::FindTeleportDestination(FVector& OutLocation)
 {
 	FVector Start = Camera->GetComponentLocation();
 	FVector End = Start+Camera->GetForwardVector()*MaxTeleportDistance;
 	
 	FHitResult HitResult;
 	bool bHit = GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECC_Visibility);
-	DestinationMarker->SetVisibility(bHit);
-	if(bHit)
+
+	if (!bHit)
 	{
-		DestinationMarker->SetWorldLocation(HitResult.Location);
+		return false;
+	}
+	FNavLocation NavLocation;
+	bool bOnNavMesh = NavSystem->ProjectPointToNavigation(HitResult.Location, NavLocation, TeleportProjectionExtent);
+
+	if (!bOnNavMesh)
+	{
+		return  false;
+	}
+	
+	OutLocation = NavLocation.Location;
+	return true;
+}
+
+
+void AVRCharacter::UpdateDestinationMarker()
+{
+	FVector Location;
+	bool bHasDestination = FindTeleportDestination(Location);
+	DestinationMarker->SetVisibility(bHasDestination);
+
+	if(bHasDestination)
+	{
+		DestinationMarker->SetWorldLocation(Location);
+		
 	}
 	else
 	{
@@ -104,7 +131,7 @@ void AVRCharacter::MoveRight(float throttle)
 
 void AVRCharacter::BeginTeleport()
 {
-	FadeOut();
+	StartFade(0,1);
 	GetWorldTimerManager().SetTimer(TimeHandle, FadeOutDuration,false,-1);
 	FinishTeleport();
 }
@@ -114,26 +141,17 @@ void AVRCharacter::FinishTeleport()
 	FVector Destination =DestinationMarker->GetComponentLocation();
 	Destination.Z = Destination.Z+GetCapsuleComponent()->GetScaledCapsuleHalfHeight();
 	SetActorLocation(Destination);
-	FadeIn();
+	StartFade(1,0);
 }
 
 
-void AVRCharacter::FadeOut()
+void AVRCharacter::StartFade(float FromAlpha, float ToAlpha)
 {
 	if (!PlayerController)
 	{
 		return;
 	}
-	CameraManager->StartCameraFade(0,1,FadeInDuration, FLinearColor::Black,bFadeInAudio,true);
-}
-
-void AVRCharacter::FadeIn()
-{
-	if (!PlayerController)
-	{
-		return;
-	}
-	CameraManager->StartCameraFade(1,0,FadeOutDuration, FLinearColor::Black,bFadeOutAudio,true);
+	CameraManager->StartCameraFade(FromAlpha,ToAlpha,FadeInDuration, FLinearColor::Black,bFadeInAudio,true);
 }
 
 
