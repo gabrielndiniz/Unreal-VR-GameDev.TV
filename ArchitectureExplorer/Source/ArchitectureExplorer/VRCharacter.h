@@ -42,7 +42,7 @@ private: //functions
 
 	void StartFade(float FromAlpha, float ToAlpha);
 
-	
+	void SetBlinkerRadius(float Proportion);
 	
 	
 private: //variables
@@ -91,4 +91,18 @@ private: //variables
 
 	UPROPERTY()
 	FVector TeleportProjectionExtent = FVector(100,100,100);
+
+	UPROPERTY()
+	class UPostProcessComponent* PostProcessComponent;
+
+	UPROPERTY(EditAnywhere)
+	class UMaterialInterface* BlinkerMaterialBase;
+
+	UPROPERTY()
+	class UMaterialInstanceDynamic* BlinkerMaterialInstance;
+
+	//Set the max of the screen that the radius will take
+	UPROPERTY(EditAnywhere)
+	float MaxBlinkersRadius = 0.3;
+	
 };

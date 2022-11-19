@@ -8,6 +8,8 @@
 #include "Components/StaticMeshComponent.h"
 #include "TimerManager.h"
 #include "Components/CapsuleComponent.h"
+#include "Components/PostProcessComponent.h"
+#include "Materials/MaterialInstanceDynamic.h"
 
 // Sets default values
 AVRCharacter::AVRCharacter()
@@ -24,6 +26,9 @@ AVRCharacter::AVRCharacter()
 		
 	DestinationMarker = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("DestinationMarker"));
 	DestinationMarker->SetupAttachment(GetRootComponent());
+	
+	PostProcessComponent = CreateDefaultSubobject<UPostProcessComponent>(TEXT("PostProcessComponent"));
+    PostProcessComponent->SetupAttachment(GetRootComponent());
 	
 }
 
@@ -42,7 +47,12 @@ void AVRCharacter::BeginPlay()
 		return;
 	}
 	CameraManager = PlayerController->PlayerCameraManager;
-	
+
+	if (BlinkerMaterialBase!= nullptr)
+	{
+	BlinkerMaterialInstance = UMaterialInstanceDynamic::Create(BlinkerMaterialBase, this);
+	PostProcessComponent->AddOrUpdateBlendable(BlinkerMaterialInstance);
+	}
 }
 
 // Called every frame
@@ -55,9 +65,6 @@ void AVRCharacter::Tick(float DeltaTime)
 	VRRoot->AddWorldOffset(-NewCameraOffset, true);
 
 	UpdateDestinationMarker();
-
-	
-
 	
 }
 
@@ -121,12 +128,14 @@ void AVRCharacter::MoveForward(float throttle)
 {
 	// Move at speed forward or backward
 	AddMovementInput(throttle * Camera->GetForwardVector() * speed);
+	SetBlinkerRadius(abs(throttle));
 } 
 
 void AVRCharacter::MoveRight(float throttle)
 {
 	// Move at speed right or left
 	AddMovementInput(throttle * Camera->GetRightVector() * speed);
+	SetBlinkerRadius(abs(throttle));
 }
 
 void AVRCharacter::BeginTeleport()
@@ -154,4 +163,9 @@ void AVRCharacter::StartFade(float FromAlpha, float ToAlpha)
 	CameraManager->StartCameraFade(FromAlpha,ToAlpha,FadeInDuration, FLinearColor::Black,bFadeInAudio,true);
 }
 
+void AVRCharacter::SetBlinkerRadius(float Proportion)
+{
+	//BlinkerMaterialInstance->SetScalarParameterValue(TEXT("BlinkerRadius"), 1-Proportion*MaxBlinkersRadius);
+BlinkerMaterialInstance->SetScalarParameterValue(TEXT("BlinkerRadius"), 0);
+}
 
