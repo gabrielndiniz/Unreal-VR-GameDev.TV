@@ -1,0 +1,11 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-RiderBlueprint-0003.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderBlueprint\Module.RiderBlueprint.cpp.obj"
+"G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderBlueprint\Default.rc2.res"
+/OUT:"G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderBlueprint\UE4Editor-RiderBlueprint-0003.lib"

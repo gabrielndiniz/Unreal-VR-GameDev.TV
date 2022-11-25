@@ -1,0 +1,1254 @@
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderGameControl\Definitions.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RiderGameControl\Public\RiderGameControl.hpp
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime/LifetimeDefinition.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/core_traits.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/Void.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\functional
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\yvals_core.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\sal.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\concurrencysal.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vadefs.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xkeycheck.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\exception
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\yvals.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\crtdbg.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_new_debug.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_new.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\use_ansi.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\type_traits
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cstdint
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\stdint.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xstddef
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cstddef
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\stddef.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xtr1common
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cstdlib
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\math.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_math.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\stdlib.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_malloc.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_search.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_wstdlib.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\limits.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\initializer_list
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\malloc.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_exception.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\eh.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_terminate.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\tuple
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xutility
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\climits
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cstring
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\string.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_memory.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_memcpy_s.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\errno.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_string.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_wstring.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\utility
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\typeinfo
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_typeinfo.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xmemory
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\limits
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cfloat
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\float.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cwchar
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cstdio
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\stdio.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_wstdio.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_stdio_config.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\wchar.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_wconio.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_wctype.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_wdirect.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_wio.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_share.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_wprocess.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_wtime.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\sys/stat.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\sys/types.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\intrin0.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\intrin0.inl.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\isa_availability.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\new
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xatomic.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\string
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xstring
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\iosfwd
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cctype
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\ctype.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\LifetimeImpl.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/hash.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\map
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xtree
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\memory
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\mutex
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\__msvc_chrono.hpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\ctime
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\time.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\ratio
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xtimec.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\system_error
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\__msvc_system_error_abi.hpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cerrno
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\stdexcept
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xcall_once.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xerrc.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\atomic
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xthreads.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\thread
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\process.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_startup.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\math.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_startup.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\thirdparty.hpp
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl/ordered_set.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\deque
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vector
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl\ordered_hash.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\algorithm
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\assert.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cmath
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\iterator
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl/ordered_map.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\optional\tl\optional.hpp
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark/variant.hpp
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\config.hpp
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\in_place.hpp
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\lib.hpp
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\include\nonstd/string_view.hpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\assert.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\ostream
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\ios
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocnum
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\streambuf
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xiosbase
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\share.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocale
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xfacet
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocinfo
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocinfo.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\clocale
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\locale.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\rd_core_export.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\Lifetime.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\CoreTypes.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/Platform.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/Build.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL\PreprocessorHelpers.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformCompilerPreSetup.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformCompilerPreSetup.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatform.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformCodeAnalysis.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatform.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\MSVC/MSVCPlatform.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformCompilerSetup.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\ProfilingDebugging/UMemoryDefines.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/CoreMiscDefines.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/CoreDefines.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/VarArgs.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/AssertionMacros.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/PlatformMisc.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformMisc.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\CoreFwd.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/ContainersFwd.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Traits/IsContiguousContainer.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\UObject/UObjectHierarchyFwd.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/PlatformCrt.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\stdarg.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\math.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/CompressionFlags.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/NumericLimits.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformMisc.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/PlatformMemory.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformMemory.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformMemory.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsSystemIncludes.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/MinimalWindowsApi.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\intrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\setjmp.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\immintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\wmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\nmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\smmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\tmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\pmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\emmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\mmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\zmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\ammintrin.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\tchar.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\intsafe.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\winapifamily.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\winpackagefamily.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\specstrings.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\specstrings_strict.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\specstrings_undef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\driverspecs.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\sdv_driverspecs.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\strsafe.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\ProfilingDebugging/CpuProfilerTrace.h
+G:\games\UE_4.27\Engine\Source\Runtime\TraceLog\Public\Trace/Trace.h
+G:\games\UE_4.27\Engine\Source\Runtime\TraceLog\Public\Trace\Detail/Trace.h
+G:\games\UE_4.27\Engine\Source\Runtime\TraceLog\Public\Trace/Config.h
+G:\games\UE_4.27\Engine\Source\Runtime\TraceLog\Public\Trace/Detail/Channel.h
+G:\games\UE_4.27\Engine\Source\Runtime\TraceLog\Public\Trace/Detail/Channel.inl
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/AndOrNot.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/EnableIf.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsArrayOrRefOfType.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsValidVariadicFunctionArg.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates\IsEnum.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/UnrealString.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/OutputDevice.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Logging/LogVerbosity.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/UnrealMemory.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsPointer.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/MemoryBase.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/PlatformAtomics.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformAtomics.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformAtomics.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/Exec.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/Atomic.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/ThreadSafeCounter.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/ThreadSafeCounter64.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsIntegral.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsTrivial.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsTriviallyDestructible.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsTriviallyCopyConstructible.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsTriviallyCopyAssignable.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Traits/IntType.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsArithmetic.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsArray.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/UnrealTypeTraits.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/AreTypesEqual.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/RemoveCV.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Traits/IsVoidType.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/Models.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/Identity.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsPODType.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/UnrealTemplate.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/CopyQualifiersAndRefsFromTo.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/CopyQualifiersFromTo.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/RemoveReference.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/TypeCompatibleBytes.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/Array.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsSigned.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/ContainerAllocationPolicies.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/PlatformMath.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformMath.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformMath.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Microsoft/MicrosoftPlatformMath.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnrealPlatformMathSSE4.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnrealPlatformMathSSE.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/MemoryOps.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsPolymorphic.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/Archive.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsEnumClass.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/Function.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/ChooseClass.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/Decay.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/Invoke.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/PointerIsConvertibleFromTo.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/StaticAssertCompleteType.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/LosesQualifiersFromTo.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsConstructible.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsInvocable.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsMemberPointer.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnrealMathUtility.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsFloatingPoint.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/PlatformProperties.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformProperties.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformProperties.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/EngineVersionBase.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/TextNamespaceFwd.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/MemoryImageWriter.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/MemoryLayout.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/EnumAsByte.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/TypeHash.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/Crc.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/Char.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\wctype.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/CString.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/PlatformString.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformString.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/MicrosoftPlatformString.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformString.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformStricmp.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/StringFwd.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsAbstract.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/DelayedAutoRegister.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Algo/Heapify.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Algo/Impl/BinaryHeap.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/ReversePredicate.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IdentityFunctor.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/Less.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Algo/HeapSort.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Algo/IsHeap.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/Sorting.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Algo/BinarySearch.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Algo/Sort.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Algo/IntroSort.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/AlignmentTemplates.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/StringFormatArg.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Logging/LogCategory.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\UObject/NameTypes.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/CriticalSection.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsCriticalSection.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/Timespan.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Interval.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/StringConv.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\UObject/UnrealNames.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\UObject\UnrealNames.inl
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/StringBuilder.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/StringView.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers\StringView.inl
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Logging/LogScopedCategoryAndVerbosityOverride.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Logging/LogTrace.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\ProfilingDebugging/FormatArgsTrace.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Modules/ModuleInterface.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/UniquePtr.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/RemoveExtent.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RiderLink\Public\IRiderLink.hpp
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorModel/RdEditorModel.Generated.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Protocol.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IProtocol.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdDynamic.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RName.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\rd_framework_export.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/Serializers.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/RdId.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Buffer.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/DateTime.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/core_util.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\erase_if.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\gen_util.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/allocator.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\overloaded.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\shared_function.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/to_string.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\sstream
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\istream
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\future
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\condition_variable
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\ppltasks.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\pplwin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\pplinterface.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\ppltaskscheduler.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\pplcancellation_token.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\locale
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocbuf
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocmes
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocmon
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xloctime
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\codecvt
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/wrapper.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/spdlog.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/common.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/tweakme.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/null_mutex.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\chrono
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/fmt.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/bundled/core.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/bundled/format.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/xchar.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/bundled/xchar.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/registry.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\unordered_map
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xhash
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xbit_ops.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/logger.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/log_msg.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/backtracer.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/log_msg_buffer.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/circular_q.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\assert.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/os.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/version.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/synchronous_factory.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\iostream
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\assert.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/list.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\hashing.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/ISerializable.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Identities.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IUnknownInstance.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/RdAny.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\DefaultAbstractDeclaration.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/unordered_map.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\unordered_set
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler/base/IScheduler.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IWire.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/base/interfaces.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IRdReactive.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdBindable.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdWireable.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/Property.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IProperty.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\SignalX.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\SignalCookie.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\IPropertyBase.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime/SequentialLifetimes.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/SerializationCtx.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\regex
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern/InternRoot.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdReactiveBase.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdBindableBase.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\guards.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern\InternScheduler.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/InternedAnySerializer.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/SerializationCtx.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdSignal.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/Polymorphic.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdProperty.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdPropertyBase.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdList.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/ViewableList.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IViewableList.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\viewable_collections.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdSet.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/ViewableSet.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IViewableSet.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdMap.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/ViewableMap.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IViewableMap.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/ISerializersOwner.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/NullableSerializer.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/AbstractPolymorphic.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\framework_traits.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/ArraySerializer.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/InternedSerializer.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext/RdExtBase.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext\ExtWire.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\queue
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task/RdCall.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTask.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTaskImpl.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTaskResult.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler/SynchronousScheduler.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\WiredRdTask.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\WiredRdTaskImpl.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task/RdEndpoint.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task/RdSymmetricCall.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/enum.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\instantiations_RdEditorRoot.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/UnrealLogEvent.Generated.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\instantiations_UE4Library.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RiderLink\Public\UE4TypesMarshallers.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/LogMessageInfo.Generated.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/StringRange.Generated.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/BlueprintReference.Generated.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/UClass.Generated.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/PlayState.Generated.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/RequestResultBase.Generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Modules/ModuleManager.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/Map.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Algo/Reverse.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/Set.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/StructBuilder.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/SparseArray.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/ScriptArray.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/BitArray.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/EnumClassFlags.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/StructuredArchive.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/StructuredArchiveFormatter.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization\Formatters/BinaryArchiveFormatter.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/Optional.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Concepts/Insertable.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/ArchiveProxy.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/UniqueObj.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/RetainedRef.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/Tuple.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Delegates/IntegerSequence.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/SharedPointer.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\CoreGlobals.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/PlatformTLS.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformTLS.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformTLS.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/SharedPointerInternals.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/SharedPointerTesting.inl
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Delegates/Delegate.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\UObject/WeakObjectPtrTemplates.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Delegates/MulticastDelegateBase.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Delegates/IDelegateInstance.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Delegates/DelegateSettings.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Delegates/DelegateBase.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Delegates/DelegateInstanceInterface.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Delegates/DelegateInstancesImpl.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Delegates/DelegateSignatureImpl.inl
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\UObject/ScriptDelegates.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsConst.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Delegates/DelegateCombinations.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/CoreMisc.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/IntPoint.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/ThreadSingleton.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/TlsAutoCleanup.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Modules/Boilerplate/ModuleBoilerplate.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model/Library/UE4Library/RequestFailed.Generated.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/NotificationType.Generated.h
+G:\Unreal Projects\VRGameDevTv\Unreal-VR-GameDev.TV\U4\ArchitectureExplorer\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model/Library/UE4Library/RequestSucceed.Generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Async/Async.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Async/Future.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/DateTime.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/Event.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/PlatformProcess.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformProcess.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformProcess.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/ScopeLock.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Async/TaskGraphInterfaces.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/LockFreeList.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/NoopCounter.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Stats/Stats.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Color.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/Parse.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/PlatformTime.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformTime.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformTime.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Stats\StatsCommon.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Stats/Stats2.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/LowLevelMemTracker.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/ChunkedArray.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/IndirectArray.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\ProfilingDebugging/MiscTrace.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Stats\StatsTrace.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/IConsoleManager.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Features/IModularFeature.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/RefCounting.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/LockFreeFixedSizeAllocator.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/MemStack.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/Runnable.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/RunnableThread.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/PlatformAffinity.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformAffinity.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformAffinity.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/CoreStats.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/IQueuedWork.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/QueuedThreadPool.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Classes\Editor/UnrealEdEngine.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\CoreMinimal.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IntegralConstant.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsClass.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/Compression.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/FrameNumber.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/ColorList.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/IntVector.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Vector2D.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/IntRect.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/ByteSwap.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/CulturePointer.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/TextLocalizationManager.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/ArrayView.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/TextKey.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/LocTesting.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/LocKeyFuncs.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/LocalizedTextSourceTypes.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/Text.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/StringTableCoreFwd.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/ITextData.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/Internationalization.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Vector.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Axis.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Vector4.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/VectorRegister.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnrealMathSSE.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/sse_mathfun.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnrealMathVectorConstants.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnrealMathVectorCommon.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/TwoVectors.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Edge.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\UObject/ObjectVersion.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Plane.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Sphere.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/CapsuleShape.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Rotator.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/RangeBound.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/AutomationEvent.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/Guid.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Hash/CityHash.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Range.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/RangeSet.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Box.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Box2D.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/BoxSphereBounds.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/OrientedBox.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Matrix.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Matrix.inl
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/RotationTranslationMatrix.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/RotationAboutPointMatrix.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/ScaleRotationTranslationMatrix.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/RotationMatrix.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Quat.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/PerspectiveMatrix.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/OrthoMatrix.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/TranslationMatrix.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/QuatRotationTranslationMatrix.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/InverseRotationMatrix.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/ScaleMatrix.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/MirrorMatrix.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/ClipProjectionMatrix.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/InterpCurvePoint.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/InterpCurve.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/CurveEdInterface.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Float32.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Float16.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Float16Color.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Vector2DHalf.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Transform.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/ScalarRegister.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/TransformVectorized.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/TransformNonVectorized.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/ConvexHull2d.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnrealMath.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Ray.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/ObjectMacros.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/Script.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/Class.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Concepts/GetTypeHashable.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/RandomStream.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/FallbackStruct.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/ScopeRWLock.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/CoreNative.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/Object.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/UObjectBaseUtility.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/UObjectBase.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/UObjectGlobals.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PrimaryAssetId.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/LinkerInstancingContext.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceRedirector.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\Serialization/ArchiveUObject.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/UObjectArray.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/UObjectMarks.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\ProfilingDebugging/ResourceSize.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GarbageCollection.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/ThreadSafeBool.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/FastReferenceCollectorOptions.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/ReflectedTypeAccessors.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/FieldPath.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/Field.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/HasGetTypeHash.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/WeakObjectPtr.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h
+G:\games\UE_4.27\Engine\Source\Runtime\InputCore\Classes\InputCoreTypes.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/Attribute.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InputCore\InputCoreTypes.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/ScriptMacros.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/ScriptInterface.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\Templates/Casts.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/UnrealType.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/List.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\Serialization/SerializedPropertyScope.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/MemoryImage.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/SecureHash.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Async/AsyncWork.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/BufferReader.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\String/BytesToHex.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\String/HexToBytes.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/Greater.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/CoreNetTypes.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/LazyObjectPtr.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PersistentObjectPtr.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\UObject/PropertyPortFlags.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyTag.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/SoftObjectPtr.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/SoftObjectPath.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/SparseDelegate.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/UndefineUPropertyMacros.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/DefineUPropertyMacros.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/Stack.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/EnumProperty.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/FieldPathProperty.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/CoreNet.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/BitReader.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/BitArchive.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/BitWriter.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/NetworkGuid.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/EngineTypes.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/NetSerialization.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\EngineLogs.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\Net/GuidReferences.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NetSerialization.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\EngineTypes.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/EngineBaseTypes.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\EngineBaseTypes.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\ComponentInstanceDataCache.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/StructOnScope.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/Package.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PackageId.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/LinkerSave.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/FileRegions.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\PixelFormat.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/ObjectResource.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/Linker.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/GatherableTextData.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/InternationalizationMetadata.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PackageFileSummary.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/CustomVersion.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/EngineVersion.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/SavePackage.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/UObjectThreadContext.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\Misc/WorldCompositionUtility.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceError.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/ObjectThumbnail.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ComponentInstanceDataCache.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ChildActorComponent.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ActorComponent.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\EdGraph/EdGraphPin.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\EdGraph/EdGraphNode.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\EdGraphNode.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\EdGraphPin.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Interfaces/Interface_AssetUserData.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/Interface.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Interface_AssetUserData.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/UObjectAnnotation.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ActorComponent.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Net\Core\Public\Net/Core/PushModel/PushModelMacros.h
+G:\games\UE_4.27\Engine\Source\Runtime\RHI\Public\RHIDefinitions.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SceneComponent.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ChildActorComponent.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\RenderCore\Public\RenderCommandFence.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/ITransaction.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc\Change.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/Level.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/ScopedCallback.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/MaterialMerging.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MaterialMerging.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Level.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Actor.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\Misc/NotifyHook.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Classes\Editor/EditorEngine.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\SlateFwd.h
+G:\games\UE_4.27\Engine\Source\Runtime\AssetRegistry\Public\AssetData.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\AssetRegistry/AssetData.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/ObjectRedirector.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\Misc/PackageName.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/LinkerLoad.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\AssetRegistry/AssetBundleData.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\AssetRegistry/AssetDataTagMap.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/SortedMap.h
+G:\games\UE_4.27\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform/GenericApplication.h
+G:\games\UE_4.27\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform/Accessibility/GenericAccessibleInterfaces.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/Variant.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/MemoryWriter.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/MemoryArchive.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/MemoryReader.h
+G:\games\UE_4.27\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform/GenericApplicationMessageHandler.h
+G:\games\UE_4.27\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform/GenericWindowDefinition.h
+G:\games\UE_4.27\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform/GenericWindow.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Widgets/SWindow.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/CoreDelegates.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/AES.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformFile.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Layout/Margin.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Types/SlateEnums.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/EnumRange.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\SlateEnums.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\Margin.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Styling/SlateColor.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Styling/WidgetStyle.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\SlateColor.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Layout/SlateRect.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Layout/Visibility.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Rendering/SlateLayoutTransform.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/TransformCalculus.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/TransformCalculus2D.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Layout/Geometry.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Layout/SlateRotatedRect.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Rendering/SlateRenderTransform.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Layout/PaintGeometry.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\Geometry.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Input/CursorReply.h
+G:\games\UE_4.27\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform/ICursor.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Input/ReplyBase.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Input/Reply.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Input/Events.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\Events.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Input/DragAndDrop.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Input/DragAndDrop.inl
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Rendering/RenderingCommon.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Input/NavigationReply.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\NavigationReply.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Input/PopupMethodReply.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\SlateGlobals.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Debugging/SlateDebugging.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\FastUpdate/WidgetUpdateFlags.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\ProfilingDebugging/CsvProfiler.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/Queue.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\ProfilingDebugging/CsvProfilerTrace.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Widgets/InvalidateWidgetReason.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\SlateDebugging.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Trace/SlateTrace.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\RenderingCommon.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Types/SlateStructs.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Animation/CurveSequence.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Animation/CurveHandle.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/Ticker.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Styling/SlateWidgetStyleAsset.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Styling/SlateWidgetStyle.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\SlateWidgetStyle.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Styling/SlateWidgetStyleContainerBase.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Styling/SlateWidgetStyleContainerInterface.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\SlateWidgetStyleContainerInterface.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\SlateWidgetStyleContainerBase.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\SlateWidgetStyleAsset.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Widgets/DeclarativeSyntaxSupport.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Layout/Clipping.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\Clipping.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Layout/FlowDirection.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\FlowDirection.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Types/ISlateMetaData.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Widgets/SNullWidget.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Widgets/Accessibility/SlateWidgetAccessibleTypes.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\SlotBase.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Widgets/SWidget.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/FrameValue.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Layout/ArrangedWidget.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Layout/LayoutGeometry.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Types/WidgetActiveTimerDelegate.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Types/WidgetMouseEventsDelegate.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Textures/SlateShaderResource.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Types/PaintArgs.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\FastUpdate/WidgetProxy.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\FastUpdate/SlateInvalidationRootHandle.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\FastUpdate/SlateInvalidationWidgetIndex.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\FastUpdate/SlateInvalidationWidgetSortOrder.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Rendering/DrawElements.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GCObject.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Fonts/ShapedTextFwd.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Fonts/SlateFontInfo.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Fonts/CompositeFont.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\CompositeFont.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\SlateFontInfo.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Fonts/FontCache.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Textures/TextureAtlas.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Fonts/FontTypes.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\FontCache.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Rendering/ShaderResourceManager.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Styling/SlateBrush.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\SlateBrush.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Textures/SlateTextureData.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Rendering\DrawElementPayloads.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Rendering\SlateRenderBatch.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Rendering\ElementBatcher.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/StaticArray.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Widgets/SCompoundWidget.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Layout/Children.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Widgets/SBoxPanel.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Widgets/SPanel.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Layout/ArrangedChildren.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Widgets/SOverlay.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Styling/SlateTypes.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Sound/SlateSound.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\SlateSound.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\SlateTypes.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Styling/CoreStyle.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Styling/ISlateStyle.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Styling/StyleDefaults.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/Paths.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateNoResource.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\FastUpdate/SlateInvalidationRoot.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\TimerManager.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/Brush.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Brush.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\Model.h
+G:\games\UE_4.27\Engine\Source\Runtime\RenderCore\Public\RenderResource.h
+G:\games\UE_4.27\Engine\Source\Runtime\RHI\Public\RHI.h
+G:\games\UE_4.27\Engine\Source\Runtime\RHI\Public\MultiGPU.h
+G:\games\UE_4.27\Engine\Source\Runtime\RHI\Public\RHIValidationCommon.h
+G:\games\UE_4.27\Engine\Source\Runtime\RHI\Public\RHIResources.h
+G:\games\UE_4.27\Engine\Source\Runtime\RHI\Public\DynamicRHI.h
+G:\games\UE_4.27\Engine\Source\Runtime\RHI\Public\RHIContext.h
+G:\games\UE_4.27\Engine\Source\Runtime\RHI\Public\RHIUtilities.h
+G:\games\UE_4.27\Engine\Source\Runtime\RHI\Public\RHICommandList.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/App.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/CommandLine.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/QualifiedFrameTime.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/FrameRate.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/FrameTime.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/ExpressionParserTypes.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/ValueOrError.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/TVariant.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc\TVariantMeta.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/ExpressionParserTypes.inl
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/Timecode.h
+G:\games\UE_4.27\Engine\Source\Runtime\RHI\Public\RHICommandList.inl
+G:\games\UE_4.27\Engine\Source\Runtime\RenderCore\Public\RenderCore.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/DynamicRHIResourceArray.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/ResourceArray.h
+G:\games\UE_4.27\Engine\Source\Runtime\RenderCore\Public\PackedNormal.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\RawIndexBuffer.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\LocalVertexFactory.h
+G:\games\UE_4.27\Engine\Source\Runtime\RenderCore\Public\ShaderParameters.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\Components.h
+G:\games\UE_4.27\Engine\Source\Runtime\RenderCore\Public\VertexFactory.h
+G:\games\UE_4.27\Engine\Source\Runtime\RenderCore\Public\ShaderCore.h
+G:\games\UE_4.27\Engine\Source\Runtime\RenderCore\Public\UniformBuffer.h
+G:\games\UE_4.27\Engine\Source\Runtime\RenderCore\Public\ShaderParameterMacros.h
+G:\games\UE_4.27\Engine\Source\Runtime\RenderCore\Public\ShaderParameterMetadata.h
+G:\games\UE_4.27\Engine\Source\Runtime\RenderCore\Public\RenderingThread.h
+G:\games\UE_4.27\Engine\Source\Runtime\RenderCore\Public\Shader.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/HashTable.h
+G:\games\UE_4.27\Engine\Source\Runtime\RenderCore\Public\ShaderPermutation.h
+G:\games\UE_4.27\Engine\Source\Runtime\RenderCore\Public\ShaderCodeLibrary.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\UObject/RenderingObjectVersion.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\UObject/DebugSerializationFlags.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Components.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\StaticMeshResources.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/UObjectIterator.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/UObjectHash.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Materials/MaterialInterface.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\SceneTypes.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SceneTypes.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/BlendableInterface.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BlendableInterface.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Materials/MaterialLayersFunctions.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MaterialLayersFunctions.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\MaterialSceneTextureId.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MaterialSceneTextureId.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Materials/MaterialRelevance.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MaterialInterface.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\PrimitiveViewRelevance.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\PrimitiveSceneProxy.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/Scene.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\SceneUtils.h
+G:\games\UE_4.27\Engine\Source\Runtime\RenderCore\Public\ProfilingDebugging/RealtimeGPUProfiler.h
+G:\games\UE_4.27\Engine\Source\Runtime\RHI\Public\GpuProfilerTrace.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Scene.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\SceneView.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/World.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/CoreOnlineFwd.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\CollisionQueryParams.h
+G:\games\UE_4.27\Engine\Source\Runtime\PhysicsCore\Public\Chaos/ChaosEngineInterface.h
+G:\games\UE_4.27\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos/Declares.h
+G:\games\UE_4.27\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos/ParticleHandleFwd.h
+G:\games\UE_4.27\Engine\Source\Runtime\Experimental\ChaosCore\Public\Chaos/Real.h
+G:\games\UE_4.27\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos/PBDRigidsEvolutionFwd.h
+G:\games\UE_4.27\Engine\Source\Runtime\PhysicsCore\Public\PhysicsInterfaceDeclaresCore.h
+G:\games\UE_4.27\Engine\Source\Runtime\PhysicsCore\Public\PhysicsInterfaceWrapperShared.h
+G:\games\UE_4.27\Engine\Source\Runtime\PhysicsCore\Public\PhysicsInterfaceTypesCore.h
+G:\games\UE_4.27\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos/CollisionFilterData.h
+G:\games\UE_4.27\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\ChaosArchive.h
+G:\games\UE_4.27\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\Serializable.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\UObject/DestructionObjectVersion.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\UObject/ExternalPhysicsCustomObjectVersion.h
+G:\games\UE_4.27\Engine\Source\Runtime\Experimental\Chaos\Public\PhysicsProxy/SingleParticlePhysicsProxyFwd.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PhysicsCore\ChaosEngineInterface.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\WorldCollision.h
+G:\games\UE_4.27\Engine\Source\Runtime\PhysicsCore\Public\CollisionShape.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavAgentInterface.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavigationTypes.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationTypes.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavAgentInterface.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Pawn.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\EngineDefines.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/Blueprint.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/BlueprintCore.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BlueprintCore.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/BlueprintGeneratedClass.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/UndefineUPropertyMacros.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BlueprintGeneratedClass.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/DefineUPropertyMacros.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\Blueprint/BlueprintSupport.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Blueprint.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/PendingNetGame.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine\NetworkDelegates.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PendingNetGame.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/LatentActionManager.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LatentActionManager.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/GameInstance.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\Subsystems/GameInstanceSubsystem.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\Subsystems/Subsystem.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Subsystem.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameInstanceSubsystem.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\Subsystems/SubsystemCollection.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Classes\Settings/LevelEditorPlaySettings.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Classes\Settings/LevelEditorPlayNetworkEmulationSettings.h
+G:\games\UE_4.27\Engine\Source\Editor\PropertyEditor\Public\IPropertyTypeCustomization.h
+G:\games\UE_4.27\Engine\Source\Editor\EditorStyle\Public\EditorStyleSet.h
+G:\games\UE_4.27\Engine\Source\Editor\PropertyEditor\Public\PropertyHandle.h
+G:\games\UE_4.27\Engine\Source\Editor\PropertyEditor\Public\PropertyEditorModule.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Public\Toolkits/IToolkitHost.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Public\Toolkits/IToolkit.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Framework/Docking/WorkspaceItem.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Textures/SlateIcon.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Framework/Docking/TabManager.h
+G:\games\UE_4.27\Engine\Source\Editor\PropertyEditor\Public\IDetailsView.h
+G:\games\UE_4.27\Engine\Source\Editor\PropertyEditor\Public\PropertyEditorDelegates.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Framework/Commands/UICommandList.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Framework/Commands/UIAction.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Framework/Commands/UICommandInfo.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Framework/Commands/InputChord.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate\InputChord.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate\UICommandInfo.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Widgets/Input/SComboBox.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Framework/SlateDelegates.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Framework/Application/SlateApplication.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Framework/Application/IMenu.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Application/SlateWindowHelper.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Rendering/SlateRenderer.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateDynamicImageBrush.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Application/SlateApplicationBase.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Application/ThrottleManager.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Widgets/IToolTip.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Layout/WidgetPath.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Layout/WidgetPath.inl
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Framework/Application/MenuStack.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Framework/Application/GestureDetector.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Framework/Application/SlateUser.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\SlateScope.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Widgets/Text/STextBlock.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Widgets/SLeafWidget.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Framework/Text/TextLayout.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Framework/Text/TextRunRenderer.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Framework/Text/TextLineHighlight.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Framework/Text/IRun.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Framework/Text/ShapedTextCacheFwd.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate\TextLayout.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SBox.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Widgets/Input/SComboButton.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Widgets/Input/SMenuAnchor.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Widgets/Views/STableViewBase.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Framework/Layout/IScrollableWidget.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Framework/Views/ITypedTableView.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate\ITypedTableView.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Framework/Layout/InertialScrollManager.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Framework/Layout/Overscroll.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate\STableViewBase.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Framework/Views/TableViewTypeTraits.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Widgets/Views/STableRow.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SBorder.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Widgets/Views/SExpanderArrow.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Widgets/Views/SHeaderRow.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SSplitter.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Widgets/Accessibility/SlateCoreAccessibleWidgets.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Widgets/Accessibility/SlateAccessibleWidgetCache.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Widgets/Accessibility/SlateAccessibleMessageHandler.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Widgets/Views/SListView.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Framework/Views/TableViewMetadata.h
+G:\games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Types/SlateConstants.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SScrollBar.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\LevelEditorPlayNetworkEmulationSettings.generated.h
+G:\games\UE_4.27\Engine\Source\Developer\ToolMenus\Public\ToolMenuContext.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ToolMenus\ToolMenuContext.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\LevelEditorPlaySettings.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameInstance.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\Physics/PhysicsInterfaceDeclares.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Particles/WorldPSCPool.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\WorldPSCPool.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\AudioDeviceManager.h
+G:\games\UE_4.27\Engine\Source\Runtime\AudioMixerCore\Public\AudioDefines.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\AudioThread.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\Subsystems/WorldSubsystem.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine/Public/Tickable.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\WorldSubsystem.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine\CollisionProfile.h
+G:\games\UE_4.27\Engine\Source\Runtime\DeveloperSettings\Public\Engine/DeveloperSettings.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DeveloperSettings\DeveloperSettings.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\World.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\ShowFlags.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\ShowFlagsValues.inl
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\ShowFlagsValues.inl
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\ShowFlagsValues.inl
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\ShowFlagsValues.inl
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\ShowFlagsValues.inl
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\ConvexVolume.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/GameViewportClient.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ScriptViewportClient.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\UnrealClient.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\HitProxies.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ScriptViewportClient.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ViewportSplitScreen.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/TitleSafeZone.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/GameViewportDelegates.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/DebugDisplayProperty.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugDisplayProperty.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\StereoRendering.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameViewportClient.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\SceneInterface.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/SHMath.h
+G:\games\UE_4.27\Engine\Source\Runtime\RenderCore\Public\RenderGraphDefinitions.h
+G:\games\UE_4.27\Engine\Source\Runtime\RenderCore\Public\RendererInterface.h
+G:\games\UE_4.27\Engine\Source\Runtime\RenderCore\Public\RenderUtils.h
+G:\games\UE_4.27\Engine\Source\Runtime\RenderCore\Public\VirtualTexturing.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\FinalPostProcessSettings.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\BlendableManager.h
+G:\games\UE_4.27\Engine\Source\Runtime\Renderer\Public\GlobalDistanceFieldParameters.h
+G:\games\UE_4.27\Engine\Source\Runtime\RHI\Public\RHIStaticStates.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/ScopedEvent.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\DebugViewModeHelpers.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\PrimitiveUniformShaderParameters.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\LightmapUniformShaderParameters.h
+G:\games\UE_4.27\Engine\Source\Runtime\RenderCore\Public\UnifiedBuffer.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/MeshMerging.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/InstancedStaticMeshComponent.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/TextureStreamingTypes.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TextureStreamingTypes.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/StaticMeshComponent.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/MeshComponent.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/PrimitiveComponent.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/BodyInstance.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\PhysxUserData.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\Physics/PhysicsInterfaceCore.h
+G:\games\UE_4.27\Engine\Source\Runtime\PhysicsCore\Public\PhysicsCore.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\Physics/PhysicsInterfacePhysX.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\EngineGlobals.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/ConstraintTypes.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ConstraintTypes.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\Physics\PhysicsInterfaceTypes.h
+G:\games\UE_4.27\Engine\Source\Runtime\PhysicsCore\Public\BodySetupEnums.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PhysicsCore\BodySetupEnums.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\Physics\GenericPhysicsInterface.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\Physics/PhysScene_PhysX.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\PhysicsPublic.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\DynamicMeshBuilder.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\SceneManagement.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/TextureLightProfile.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/Texture2D.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/Texture.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\Serialization/BulkData.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Async/AsyncFileHandle.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\Serialization\BulkDataCommon.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\Serialization\BulkData2.h
+G:\games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\Serialization\BulkDataBuffer.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\IO/IoDispatcher.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\IO/IoContainerId.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/IEngineCrypto.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Features/IModularFeatures.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/TextureDefines.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TextureDefines.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\MaterialShared.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\StaticParameterSet.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\UObject/FortniteMainBranchObjectVersion.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\UObject/ReleaseObjectVersion.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StaticParameterSet.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\TextureResource.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/StreamableRenderAsset.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\RenderAssetUpdate.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\Streaming/StreamableRenderResourceState.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StreamableRenderAsset.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\PerPlatformProperties.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Algo/Find.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Algo/Impl/RangePointerType.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/Engine.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/BufferedOutputDevice.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\Subsystems/EngineSubsystem.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\EngineSubsystem.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Engine.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PerPlatformProperties.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/FieldAccessor.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Texture.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Texture2D.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TextureLightProfile.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\BatchedElements.h
+G:\games\UE_4.27\Engine\Source\Runtime\RenderCore\Public\StaticBoundShaderState.h
+G:\games\UE_4.27\Engine\Source\Runtime\RHI\Public\PipelineStateCache.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\MeshBatch.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\VT/RuntimeVirtualTextureEnum.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RuntimeVirtualTextureEnum.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\RenderCore\Public\DynamicBufferAllocator.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\Rendering/SkyAtmosphereCommonData.h
+G:\games\UE_4.27\Engine\Source\Runtime\PhysicsCore\Public\PhysicsPublicCore.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/RigidBodyIndexPair.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\Physics/Experimental/PhysScene_ImmediatePhysX.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\Physics/Experimental/PhysicsInterfaceImmediatePhysX.h
+G:\games\UE_4.27\Engine\Source\Runtime\PhysicsCore\Public\BodyInstanceCore.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PhysicsCore\BodyInstanceCore.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BodyInstance.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavRelevantInterface.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\AI/NavigationModifier.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavLinkDefinition.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavLinkDefinition.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavRelevantInterface.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PrimitiveComponent.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MeshComponent.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime/Launch/Resources/Version.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StaticMeshComponent.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\InstancedStaticMeshComponent.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MeshMerging.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\Rendering/ColorVertexBuffer.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\StaticMeshVertexData.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\Rendering/StaticMeshVertexDataInterface.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\Rendering/StaticMeshVertexBuffer.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\Rendering/PositionVertexBuffer.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\WeightedRandomSampler.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Classes\Editor/Transactor.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/ArchiveSerializedPropertyChain.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\Transactor.generated.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Classes\Settings/LevelEditorViewportSettings.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Public\Viewports.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Classes\Editor/UnrealEdTypes.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\UnrealEdTypes.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\LevelEditorViewportSettings.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/CompilationResult.h
+G:\games\UE_4.27\Engine\Source\Developer\TargetPlatform\Public\Interfaces/ITargetPlatform.h
+G:\games\UE_4.27\Engine\Source\Developer\TargetPlatform\Public\Interfaces/ITargetDevice.h
+G:\games\UE_4.27\Engine\Source\Developer\TargetPlatform\Public\Interfaces/TargetDeviceId.h
+G:\games\UE_4.27\Engine\Source\Developer\TargetPlatform\Public\Interfaces/ITargetPlatformManagerModule.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Public\PlayInEditorDataTypes.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\PlayInEditorDataTypes.generated.h
+G:\games\UE_4.27\Engine\Source\Editor\EditorSubsystem\Public\EditorSubsystem.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorSubsystem\EditorSubsystem.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Public\UnrealEngine.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\EditorEngine.generated.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Public\IPackageAutoSaver.h
+G:\games\UE_4.27\Engine\Source\Developer\SourceControl\Public\ISourceControlProvider.h
+G:\games\UE_4.27\Engine\Source\Developer\SourceControl\Public\ISourceControlOperation.h
+G:\games\UE_4.27\Engine\Source\Developer\SourceControl\Public\ISourceControlState.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Public\IDDCNotifications.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Public\ComponentVisualizer.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\ComponentVisualizer.generated.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Public\ComponentVisualizerManager.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\UnrealEdEngine.generated.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Public\Kismet2/DebuggerCommands.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Framework/Commands/Commands.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Framework/Commands/InputBindingManager.h
+G:\games\UE_4.27\Engine\Source\Editor\LevelEditor\Public\LevelEditor.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Framework/MultiBox/MultiBoxExtender.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Framework/Docking/LayoutService.h
+G:\games\UE_4.27\Engine\Source\Editor\LevelEditor\Public\ILevelEditor.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Public\AssetThumbnail.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Public\TickableEditorObject.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Public\Toolkits/AssetEditorToolkit.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Public\Toolkits/BaseToolkit.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Public\UnrealEdMisc.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Public\Editor.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/StaticMesh.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Interfaces/Interface_CollisionDataProvider.h
+G:\games\UE_4.27\Engine\Source\Runtime\PhysicsCore\Public\Interface_CollisionDataProviderCore.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Interface_CollisionDataProvider.generated.h
+G:\games\UE_4.27\Engine\Source\Runtime\MeshDescription\Public\MeshTypes.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshDescription\MeshTypes.generated.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StaticMesh.generated.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Public\Subsystems/ImportSubsystem.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\ImportSubsystem.generated.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Public\Subsystems/AssetEditorSubsystem.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Public\Tools/Modes.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\AssetEditorSubsystem.generated.h
+G:\games\UE_4.27\Engine\Source\Editor\LevelEditor\Public\ViewportTypeDefinition.h
+G:\games\UE_4.27\Engine\Source\Editor\LevelEditor\Public\LevelEditorActions.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Public\UnrealWidget.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Classes\TexAligner/TexAligner.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\TexAligner.generated.h
+G:\games\UE_4.27\Engine\Source\Editor\LevelEditor\Public\LightmapResRatioAdjust.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/FeedbackContext.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/SlowTask.h
+G:\games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/SlowTaskStack.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Public\IAssetViewport.h
+G:\games\UE_4.27\Engine\Source\Runtime\Slate\Public\Widgets/SViewport.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Public\EditorViewportClient.h
+G:\games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Camera/CameraTypes.h
+G:\games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraTypes.generated.h
+G:\games\UE_4.27\Engine\Source\Editor\UnrealEd\Public\EditorComponents.h
