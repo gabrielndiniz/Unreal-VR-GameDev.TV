@@ -1,12 +1,16 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "VRCharacter.h"
+
+#include <string>
+
 #include "Camera/CameraComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "TimerManager.h"
 #include "Components/CapsuleComponent.h"
 #include "NavigationSystem.h"
 #include "NavigationData.h"
+#include "../../Plugins/Developer/RiderLink/Source/RD/thirdparty/clsocket/src/ActiveSocket.h"
 #include "Components/PostProcessComponent.h"
 #include "Materials/MaterialInstanceDynamic.h"
 
@@ -42,7 +46,7 @@ void AVRCharacter::BeginPlay()
 		BlinkerMaterialInstance = UMaterialInstanceDynamic::Create(BlinkerMaterialBase, this);
 		PostProcessComponent->AddOrUpdateBlendable(BlinkerMaterialInstance);
 
-		BlinkerMaterialInstance->SetScalarParameterValue(TEXT("Radius"), 0.2);
+		BlinkerMaterialInstance->SetScalarParameterValue(TEXT("Radius"), 1);
 	}
 }
 
@@ -57,6 +61,9 @@ void AVRCharacter::Tick(float DeltaTime)
 	VRRoot->AddWorldOffset(-NewCameraOffset);
 
 	UpdateDestinationMarker();
+
+	UpdateBlinkers();
+	
 }
 
 bool AVRCharacter::FindTeleportDestination(FVector &OutLocation)
@@ -102,8 +109,8 @@ void AVRCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-	PlayerInputComponent->BindAxis(TEXT("Forward"), this, &AVRCharacter::MoveForward);
-	PlayerInputComponent->BindAxis(TEXT("Right"), this, &AVRCharacter::MoveRight);
+	PlayerInputComponent->BindAxis(TEXT("Move_Y"), this, &AVRCharacter::MoveForward);
+	PlayerInputComponent->BindAxis(TEXT("Move_X"), this, &AVRCharacter::MoveRight);
 	PlayerInputComponent->BindAction(TEXT("Teleport"), IE_Released, this, &AVRCharacter::BeginTeleport);
 }
 
@@ -140,4 +147,17 @@ void AVRCharacter::StartFade(float FromAlpha, float ToAlpha)
 	{
 		PC->PlayerCameraManager->StartCameraFade(FromAlpha, ToAlpha, TeleportFadeTime, FLinearColor::Black);
 	}
+}
+
+void AVRCharacter::UpdateBlinkers()
+{
+	if (RadiusVsVelocity == nullptr)
+	{
+		return;
+	}
+
+	float Speed = GetVelocity().Size();
+	float Radius = RadiusVsVelocity->GetFloatValue(Speed)/maxConsideredVelocity;
+	BlinkerMaterialInstance->SetScalarParameterValue(TEXT("Radius"),Radius);
+	
 }

@@ -102,3 +102,7 @@ Architecture1/Plugins/*/Intermediate/*
 ArchitectureExplorer/DerivedDataCache/*
 U4/ArchitectureExplorer/DerivedDataCache/*
 Architecture1/DerivedDataCache/*
+
+# Plugins
+
+U4/ArchitectureExplorer/Plugins/*

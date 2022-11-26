@@ -39,6 +39,8 @@ private:
 
 	void StartFade(float FromAlpha, float ToAlpha);
 
+	void UpdateBlinkers();
+
 private:
 	
 	UPROPERTY()
@@ -70,5 +72,9 @@ private:
 	UPROPERTY(EditAnywhere)
 	class UMaterialInterface * BlinkerMaterialBase;
 
+	UPROPERTY(EditAnywhere)
+	class UCurveFloat* RadiusVsVelocity;
 	
+	UPROPERTY(EditAnywhere)
+	float maxConsideredVelocity = 587;
 };
