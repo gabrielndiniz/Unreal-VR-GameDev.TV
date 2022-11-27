@@ -41,6 +41,11 @@ void AVRCharacter::BeginPlay()
 
 	DestinationMarker->SetVisibility(false);
 
+	PC = Cast<APlayerController>(GetController());
+	if (PC != nullptr)
+	{
+		PC->GetViewportSize(ViewPortSizeX,ViewPortSizeY);
+	}
 	if (BlinkerMaterialBase != nullptr)
 	{
 		BlinkerMaterialInstance = UMaterialInstanceDynamic::Create(BlinkerMaterialBase, this);
@@ -142,7 +147,6 @@ void AVRCharacter::FinishTeleport()
 
 void AVRCharacter::StartFade(float FromAlpha, float ToAlpha)
 {
-	APlayerController* PC = Cast<APlayerController>(GetController());
 	if (PC != nullptr)
 	{
 		PC->PlayerCameraManager->StartCameraFade(FromAlpha, ToAlpha, TeleportFadeTime, FLinearColor::Black);
@@ -157,7 +161,47 @@ void AVRCharacter::UpdateBlinkers()
 	}
 
 	float Speed = GetVelocity().Size();
-	float Radius = RadiusVsVelocity->GetFloatValue(Speed)/maxConsideredVelocity;
-	BlinkerMaterialInstance->SetScalarParameterValue(TEXT("Radius"),Radius);
+
+if (Speed > 0 && Speed > MaxConsideredVelocity)
+{
+	MaxConsideredVelocity = Speed;
+}
+	
+	float Radius = RadiusVsVelocity->GetFloatValue(Speed/MaxConsideredVelocity);
+    BlinkerMaterialInstance->SetScalarParameterValue(TEXT("Radius"),Radius);
+
+	FVector2D Centre = GetBlinkerCentre();
+	BlinkerMaterialInstance->SetVectorParameterValue(TEXT("Centre"), FLinearColor(Centre.X,Centre.Y,0));
 	
 }
+
+FVector2D AVRCharacter::GetBlinkerCentre()
+{
+	if (PC == nullptr)
+	{
+		return FVector2D (0.5,0.5);
+	}
+	if (GetVelocity().IsNearlyZero())
+	{
+		return FVector2D (0.5,0.5);
+	}
+	FVector MovementDirection = GetVelocity().GetSafeNormal();
+	//At least ten meter distance (1000 units)
+
+	FVector WorldStationaryLocation;
+	if (FVector::DotProduct(Camera->GetForwardVector(),MovementDirection)>=0)
+	{
+		WorldStationaryLocation = Camera->GetComponentLocation()+MovementDirection*1000;
+	}
+	else
+	{
+		WorldStationaryLocation = Camera->GetComponentLocation()-MovementDirection*1000;
+	}
+	FVector2D ScreenStationaryLocation;
+	PC->ProjectWorldLocationToScreen(WorldStationaryLocation, ScreenStationaryLocation);
+	ScreenStationaryLocation.X /= ViewPortSizeX;
+	ScreenStationaryLocation.Y /= ViewPortSizeY;
+	
+	return ScreenStationaryLocation;
+}
+

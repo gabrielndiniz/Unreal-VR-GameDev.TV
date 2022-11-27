@@ -36,10 +36,13 @@ private:
 
 	void BeginTeleport();
 	void FinishTeleport();
-
+	
 	void StartFade(float FromAlpha, float ToAlpha);
 
 	void UpdateBlinkers();
+	FVector2D GetBlinkerCentre();
+
+	
 
 private:
 	
@@ -57,6 +60,18 @@ private:
 	UPROPERTY()
 	class UMaterialInstanceDynamic* BlinkerMaterialInstance;
 
+	UPROPERTY()
+	APlayerController* PC;
+
+	UPROPERTY()
+	int32 ViewPortSizeX;
+
+	UPROPERTY()
+	int32 ViewPortSizeY;
+	
+	UPROPERTY()
+	float MaxConsideredVelocity = 1;
+
 private:
 	
 	UPROPERTY(EditAnywhere)
@@ -67,14 +82,10 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	FVector TeleportProjectionExtent = FVector(100, 100, 100);
-
 	
 	UPROPERTY(EditAnywhere)
 	class UMaterialInterface * BlinkerMaterialBase;
 
 	UPROPERTY(EditAnywhere)
 	class UCurveFloat* RadiusVsVelocity;
-	
-	UPROPERTY(EditAnywhere)
-	float maxConsideredVelocity = 587;
 };
