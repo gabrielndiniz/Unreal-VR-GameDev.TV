@@ -68,9 +68,9 @@ Architecture1/Build/*
 !ArchitectureExplorer/Build/*/
 ArchitectureExplorer/Build/*/**
 !ArchitectureExplorer/Build/*/PakBlacklist*.txt
-U4/!ArchitectureExplorer/Build/*/
+!U4/ArchitectureExplorer/Build/*/
 U4/ArchitectureExplorer/Build/*/**
-U4/!ArchitectureExplorer/Build/*/PakBlacklist*.txt
+!U4/ArchitectureExplorer/Build/*/PakBlacklist*.txt
 !Architecture1/Build/*/
 Architecture1/Build/*/**
 !Architecture1/Build/*/PakBlacklist*.txt

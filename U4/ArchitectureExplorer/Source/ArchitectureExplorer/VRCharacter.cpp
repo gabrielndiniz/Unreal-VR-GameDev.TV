@@ -13,6 +13,7 @@
 #include "../../Plugins/Developer/RiderLink/Source/RD/thirdparty/clsocket/src/ActiveSocket.h"
 #include "Components/PostProcessComponent.h"
 #include "Materials/MaterialInstanceDynamic.h"
+#include "MotionControllerComponent.h"
 
 // Sets default values
 AVRCharacter::AVRCharacter()
@@ -25,6 +26,14 @@ AVRCharacter::AVRCharacter()
 
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(VRRoot);
+
+	LeftController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("LeftController"));
+	LeftController->SetupAttachment(VRRoot);
+	LeftController->SetTrackingSource(EControllerHand::Left);
+
+	RightController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("RightController"));
+	RightController->SetupAttachment(VRRoot);
+	RightController->SetTrackingSource(EControllerHand::Right);
 
 	DestinationMarker = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("DestinationMarker"));
 	DestinationMarker->SetupAttachment(GetRootComponent());
@@ -53,6 +62,9 @@ void AVRCharacter::BeginPlay()
 
 		BlinkerMaterialInstance->SetScalarParameterValue(TEXT("Radius"), 1);
 	}
+
+	LeftController->bDisplayDeviceModel = true;
+	RightController->bDisplayDeviceModel = true;
 }
 
 // Called every frame
@@ -73,8 +85,29 @@ void AVRCharacter::Tick(float DeltaTime)
 
 bool AVRCharacter::FindTeleportDestination(FVector &OutLocation)
 {
-	FVector Start = Camera->GetComponentLocation();
-	FVector End = Start + Camera->GetForwardVector() * MaxTeleportDistance;
+	FVector Start;
+	FVector Look;
+	FVector End;
+	if (RightController == nullptr && LeftController == nullptr)
+	{
+		Start = Camera->GetComponentLocation();
+		Look = Camera->GetForwardVector();
+		End = Start + Look * MaxTeleportDistance;
+	}
+	else if (TeleportWithRightHand())
+	{
+		Start = RightController->GetComponentLocation();
+		Look = RightController->GetForwardVector();
+		Look = Look.RotateAngleAxis(30,RightController->GetRightVector());
+		End = Start + Look * MaxTeleportDistance;
+	}
+	else
+	{
+		Start = LeftController->GetComponentLocation();
+		Look = LeftController->GetForwardVector();
+		Look = Look.RotateAngleAxis(30,LeftController->GetRightVector());
+		End = Start + Look * MaxTeleportDistance;
+	}
 
 	FHitResult HitResult;
 	bool bHit = GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECC_Visibility);
@@ -91,6 +124,17 @@ bool AVRCharacter::FindTeleportDestination(FVector &OutLocation)
 
 	return true;
 }
+
+bool AVRCharacter::TeleportWithRightHand()
+{
+	if (FVector::DotProduct(Camera->GetForwardVector(),RightController->GetForwardVector())>=
+	FVector::DotProduct(Camera->GetForwardVector(),LeftController->GetForwardVector()))
+	{
+		return true;
+	}
+	return false;
+}
+
 
 void AVRCharacter::UpdateDestinationMarker()
 {
