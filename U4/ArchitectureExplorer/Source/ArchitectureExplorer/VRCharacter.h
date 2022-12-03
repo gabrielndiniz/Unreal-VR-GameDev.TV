@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Kismet/GameplayStaticsTypes.h"
 #include "VRCharacter.generated.h"
 
 UCLASS()
@@ -81,6 +82,18 @@ private:
 	UPROPERTY()
 	float MaxConsideredVelocity = 1;
 
+	UPROPERTY()
+	UObject* WorldContextObject;
+	
+	UPROPERTY()
+	FPredictProjectilePathParams PredictParams;
+	
+	UPROPERTY()
+	FPredictProjectilePathResult PredictResult;
+
+	UPROPERTY()
+	bool bHit = false;
+
 private:
 	
 	UPROPERTY(EditAnywhere)
@@ -97,4 +110,20 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	class UCurveFloat* RadiusVsVelocity;
+	
+	UPROPERTY(EditAnywhere)
+	float TeleportProjectileRadius = 10;
+	
+	UPROPERTY(EditAnywhere)
+	float TeleportProjectileSpeed = 800;
+	
+	UPROPERTY(EditAnywhere)
+	float CParabola;
+	
+	UPROPERTY(EditAnywhere)
+	float TeleportSimulationTime = 2;
+
+	
+
+	
 };

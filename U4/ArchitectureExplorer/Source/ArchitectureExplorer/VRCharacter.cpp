@@ -14,6 +14,8 @@
 #include "Components/PostProcessComponent.h"
 #include "Materials/MaterialInstanceDynamic.h"
 #include "MotionControllerComponent.h"
+#include "Kismet/GameplayStatics.h"
+#include "DrawDebugHelpers.h"
 
 // Sets default values
 AVRCharacter::AVRCharacter()
@@ -65,6 +67,8 @@ void AVRCharacter::BeginPlay()
 
 	LeftController->bDisplayDeviceModel = true;
 	RightController->bDisplayDeviceModel = true;
+
+	WorldContextObject = this;
 }
 
 // Called every frame
@@ -87,36 +91,40 @@ bool AVRCharacter::FindTeleportDestination(FVector &OutLocation)
 {
 	FVector Start;
 	FVector Look;
-	FVector End;
 	if (RightController == nullptr && LeftController == nullptr)
 	{
 		Start = Camera->GetComponentLocation();
 		Look = Camera->GetForwardVector();
-		End = Start + Look * MaxTeleportDistance;
 	}
 	else if (TeleportWithRightHand())
 	{
 		Start = RightController->GetComponentLocation();
 		Look = RightController->GetForwardVector();
-		Look = Look.RotateAngleAxis(30,RightController->GetRightVector());
-		End = Start + Look * MaxTeleportDistance;
 	}
 	else
 	{
 		Start = LeftController->GetComponentLocation();
 		Look = LeftController->GetForwardVector();
-		Look = Look.RotateAngleAxis(30,LeftController->GetRightVector());
-		End = Start + Look * MaxTeleportDistance;
 	}
 
-	FHitResult HitResult;
-	bool bHit = GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECC_Visibility);
+
+	PredictParams = FPredictProjectilePathParams(TeleportProjectileRadius,
+		Start,
+		Look*TeleportProjectileSpeed,
+		TeleportSimulationTime,
+		ECC_Visibility,
+		this //I forgot to IGNORE myself
+		);
+	PredictParams.bTraceComplex = true; //If it does not have collisions in a good way
+	PredictParams.DrawDebugType = EDrawDebugTrace::ForOneFrame;
+
+	bHit = UGameplayStatics::PredictProjectilePath(WorldContextObject, PredictParams, PredictResult);
+
 
 	if (!bHit) return false;
 
 	FNavLocation NavLocation;
-	//bool bOnNavMesh = GetWorld()->GetNavigationSystem()->ProjectPoint(HitResult.Location, NavLocation, TeleportProjectionExtent);
-	bool bOnNavMesh = GetWorld()->GetNavigationSystem()->GetMainNavData()->ProjectPoint(HitResult.Location, NavLocation, TeleportProjectionExtent);
+	bool bOnNavMesh = GetWorld()->GetNavigationSystem()->GetMainNavData()->ProjectPoint(PredictResult.HitResult.Location, NavLocation, TeleportProjectionExtent);
 	
 	if (!bOnNavMesh) return false;
 
@@ -127,6 +135,10 @@ bool AVRCharacter::FindTeleportDestination(FVector &OutLocation)
 
 bool AVRCharacter::TeleportWithRightHand()
 {
+	if (RightController == nullptr)
+	{
+		return false;
+	}
 	if (FVector::DotProduct(Camera->GetForwardVector(),RightController->GetForwardVector())>=
 	FVector::DotProduct(Camera->GetForwardVector(),LeftController->GetForwardVector()))
 	{
@@ -175,7 +187,8 @@ void AVRCharacter::MoveRight(float throttle)
 
 void AVRCharacter::BeginTeleport()
 {
-
+	
+	if (!bHit) return;
 	StartFade(0, 1);
 
 	FTimerHandle Handle;
