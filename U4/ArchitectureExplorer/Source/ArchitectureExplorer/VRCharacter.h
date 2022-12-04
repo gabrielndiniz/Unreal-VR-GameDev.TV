@@ -29,11 +29,12 @@ public:
 
 private:
 	
-	bool FindTeleportDestination(FVector &OutLocation);
+	bool FindTeleportDestination(TArray<FVector> &OutPath, FVector &OutLocation);
 	
 	bool TeleportWithRightHand();
 	
 	void UpdateDestinationMarker();
+	void UpdateSplinePoints(TArray<FVector> &Path);
 
 	void MoveForward(float throttle);
 	void MoveRight(float throttle);
@@ -60,6 +61,9 @@ private:
 	
 	UPROPERTY()
 	class USceneComponent* VRRoot;
+
+	UPROPERTY(VisibleAnywhere)
+	class USplineComponent* TeleportPath;
 
 	UPROPERTY(VisibleAnywhere)
 	class UStaticMeshComponent* DestinationMarker;
@@ -93,6 +97,9 @@ private:
 
 	UPROPERTY()
 	bool bHit = false;
+	
+	UPROPERTY()
+	int8 Hand = 3;
 
 private:
 	

@@ -15,7 +15,7 @@
 #include "Materials/MaterialInstanceDynamic.h"
 #include "MotionControllerComponent.h"
 #include "Kismet/GameplayStatics.h"
-#include "DrawDebugHelpers.h"
+#include "Components/SplineComponent.h"
 
 // Sets default values
 AVRCharacter::AVRCharacter()
@@ -36,6 +36,9 @@ AVRCharacter::AVRCharacter()
 	RightController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("RightController"));
 	RightController->SetupAttachment(VRRoot);
 	RightController->SetTrackingSource(EControllerHand::Right);
+
+	//TeleportPath = CreateDefaultSubobject<USplineComponent>(TEXT("TeleportPath"));
+	//TeleportPath->SetupAttachment(VRRoot);
 
 	DestinationMarker = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("DestinationMarker"));
 	DestinationMarker->SetupAttachment(GetRootComponent());
@@ -69,6 +72,14 @@ void AVRCharacter::BeginPlay()
 	RightController->bDisplayDeviceModel = true;
 
 	WorldContextObject = this;
+
+	if (TeleportPath == nullptr)
+	{
+		TeleportPath = NewObject<USplineComponent>(this);
+		TeleportPath->SetupAttachment(VRRoot);
+		TeleportPath->ClearSplinePoints(true);
+	}
+
 }
 
 // Called every frame
@@ -87,7 +98,7 @@ void AVRCharacter::Tick(float DeltaTime)
 	
 }
 
-bool AVRCharacter::FindTeleportDestination(FVector &OutLocation)
+bool AVRCharacter::FindTeleportDestination(TArray<FVector> &OutPath, FVector &OutLocation)
 {
 	FVector Start;
 	FVector Look;
@@ -95,16 +106,34 @@ bool AVRCharacter::FindTeleportDestination(FVector &OutLocation)
 	{
 		Start = Camera->GetComponentLocation();
 		Look = Camera->GetForwardVector();
+		if (Hand != 0)
+		{
+			TeleportPath->SetupAttachment(VRRoot);
+			TeleportPath->ClearSplinePoints(true);
+			Hand=0;
+		}
 	}
 	else if (TeleportWithRightHand())
 	{
 		Start = RightController->GetComponentLocation();
 		Look = RightController->GetForwardVector();
+		if (Hand != 1)
+		{
+			TeleportPath->SetupAttachment(RightController);
+			TeleportPath->ClearSplinePoints(true);
+			Hand=1;
+		}
 	}
 	else
 	{
 		Start = LeftController->GetComponentLocation();
 		Look = LeftController->GetForwardVector();
+		if (Hand != 2)
+		{
+			TeleportPath->SetupAttachment(LeftController);
+			TeleportPath->ClearSplinePoints(true);
+			Hand=2;
+		}
 	}
 
 
@@ -120,9 +149,28 @@ bool AVRCharacter::FindTeleportDestination(FVector &OutLocation)
 
 	bHit = UGameplayStatics::PredictProjectilePath(WorldContextObject, PredictParams, PredictResult);
 
+	OutPath.Empty();
+	if(!bHit)
+	{
+		OutPath.Add(Start);
+		return false;
+	}
 
-	if (!bHit) return false;
+	if (PredictResult.PathData.Num() == 0)
+	{
+		return false;
+	}
 
+	if (PredictResult.PathData.Num() == 1)
+	{
+		OutPath.Add(Start);
+	}
+
+	for (FPredictProjectilePathPointData PointData : PredictResult.PathData)
+	{
+		OutPath.Add(PointData.Location);
+	}
+		
 	FNavLocation NavLocation;
 	bool bOnNavMesh = GetWorld()->GetNavigationSystem()->GetMainNavData()->ProjectPoint(PredictResult.HitResult.Location, NavLocation, TeleportProjectionExtent);
 	
@@ -151,19 +199,42 @@ bool AVRCharacter::TeleportWithRightHand()
 void AVRCharacter::UpdateDestinationMarker()
 {
 	FVector Location;
-	bool bHasDestination = FindTeleportDestination(Location);
+	TArray<FVector> Path;
+	
+	bool bHasDestination = FindTeleportDestination(Path, Location);
 
 	if (bHasDestination)
 	{
 		DestinationMarker->SetVisibility(true);
 
 		DestinationMarker->SetWorldLocation(Location);
+
+		UpdateSplinePoints(Path);
 	} 
 	else
 	{
 		DestinationMarker->SetVisibility(false);
 	}
 }
+
+void AVRCharacter::UpdateSplinePoints(TArray<FVector>& Path)
+{
+	if (TeleportPath == nullptr)
+	{
+		UE_LOG(LogTemp,Warning,TEXT("UpdateSplinePoints: TeleportPath is nullptr"));
+		return;
+	}
+	TeleportPath->ClearSplinePoints(false);
+
+	for (int32 i =0; i < Path.Num(); ++i)
+	{
+		FSplinePoint Point(i,Path[i],ESplinePointType::Curve);
+		TeleportPath->AddPoint(Point, false);
+	}
+	
+	TeleportPath->UpdateSpline();
+}
+
 
 // Called to bind functionality to input
 void AVRCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -187,8 +258,6 @@ void AVRCharacter::MoveRight(float throttle)
 
 void AVRCharacter::BeginTeleport()
 {
-	
-	if (!bHit) return;
 	StartFade(0, 1);
 
 	FTimerHandle Handle;
