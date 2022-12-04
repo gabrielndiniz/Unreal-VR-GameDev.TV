@@ -34,7 +34,8 @@ private:
 	bool TeleportWithRightHand();
 	
 	void UpdateDestinationMarker();
-	void UpdateSplinePoints(TArray<FVector> &Path);
+	void DrawTeleportPath(const TArray<FVector> &Path);
+	void UpdateSplinePoints(const TArray<FVector> &Path);
 
 	void MoveForward(float throttle);
 	void MoveRight(float throttle);
@@ -73,6 +74,9 @@ private:
 
 	UPROPERTY()
 	class UMaterialInstanceDynamic* BlinkerMaterialInstance;
+	
+	UPROPERTY()
+	TArray<class UStaticMeshComponent*> TeleportPathMeshPool;
 
 	UPROPERTY()
 	APlayerController* PC;
@@ -130,7 +134,14 @@ private:
 	UPROPERTY(EditAnywhere)
 	float TeleportSimulationTime = 2;
 
-	
+	UPROPERTY(EditDefaultsOnly)
+	class UStaticMesh* TeleportArchMesh;
+
+	UPROPERTY(EditDefaultsOnly)
+	class UMaterialInterface* TeleportArchMaterial;
+
+	UPROPERTY(EditDefaultsOnly)
+	FVector TeleportArchScale;
 
 	
 };

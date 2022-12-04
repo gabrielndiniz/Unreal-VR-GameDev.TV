@@ -209,7 +209,7 @@ void AVRCharacter::UpdateDestinationMarker()
 
 		DestinationMarker->SetWorldLocation(Location);
 
-		UpdateSplinePoints(Path);
+		DrawTeleportPath(Path);
 	} 
 	else
 	{
@@ -217,7 +217,34 @@ void AVRCharacter::UpdateDestinationMarker()
 	}
 }
 
-void AVRCharacter::UpdateSplinePoints(TArray<FVector>& Path)
+void AVRCharacter::DrawTeleportPath(const TArray<FVector>& Path)
+{
+	UpdateSplinePoints(Path);
+
+	for (int32 i =0; i < Path.Num(); ++i)
+	{
+		
+		if (TeleportPathMeshPool.Num() <= i)
+		{
+			UStaticMeshComponent* DynamicMesh = NewObject<UStaticMeshComponent>(this);
+			DynamicMesh->AttachToComponent(VRRoot,FAttachmentTransformRules::KeepRelativeTransform);
+			DynamicMesh->SetStaticMesh(TeleportArchMesh);
+			DynamicMesh->SetMaterial(0,TeleportArchMaterial);
+			DynamicMesh->SetRelativeScale3D(TeleportArchScale);
+			DynamicMesh->RegisterComponent();
+			TeleportPathMeshPool.Add(DynamicMesh);
+			DynamicMesh->SetWorldLocation(Path[i]);
+		}
+		else
+		{
+		TeleportPathMeshPool[i]->SetWorldLocation(Path[i]);
+		}
+
+	}
+}
+
+
+void AVRCharacter::UpdateSplinePoints(const TArray<FVector>& Path)
 {
 	if (TeleportPath == nullptr)
 	{
