@@ -13,10 +13,10 @@
 #include "../../Plugins/Developer/RiderLink/Source/RD/thirdparty/clsocket/src/ActiveSocket.h"
 #include "Components/PostProcessComponent.h"
 #include "Materials/MaterialInstanceDynamic.h"
-#include "MotionControllerComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "Components/SplineComponent.h"
 #include "Components/SplineMeshComponent.h"
+#include "HandController.h"
 
 // Sets default values
 AVRCharacter::AVRCharacter()
@@ -29,14 +29,6 @@ AVRCharacter::AVRCharacter()
 
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(VRRoot);
-
-	LeftController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("LeftController"));
-	LeftController->SetupAttachment(VRRoot);
-	LeftController->SetTrackingSource(EControllerHand::Left);
-
-	RightController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("RightController"));
-	RightController->SetupAttachment(VRRoot);
-	RightController->SetTrackingSource(EControllerHand::Right);
 
 	TeleportPath = CreateDefaultSubobject<USplineComponent>(TEXT("TeleportPath"));
 	TeleportPath->SetupAttachment(VRRoot);
@@ -64,6 +56,23 @@ void AVRCharacter::BeginPlay()
 
 	Start = VRRoot->GetComponentLocation();
 	Look = VRRoot->GetForwardVector();
+
+	
+	LeftController = GetWorld()->SpawnActor<AHandController>(HandControllerClass);
+	if (LeftController != nullptr)
+	{
+		LeftController->AttachToComponent(VRRoot, FAttachmentTransformRules::KeepRelativeTransform);
+		LeftController->SetHand(EControllerHand::Left);
+		LeftController->SetOwner(this);
+	}
+
+	RightController = GetWorld()->SpawnActor<AHandController>(HandControllerClass);
+	if (RightController != nullptr)
+	{
+		RightController->AttachToComponent(VRRoot, FAttachmentTransformRules::KeepRelativeTransform);
+		RightController->SetHand(EControllerHand::Right);
+		RightController->SetOwner(this);
+	}
 }
 
 // Called every frame
@@ -291,16 +300,16 @@ void AVRCharacter::ChooseActiveHand()
 	{
 		return;
 	}
-	if (FVector::DotProduct(Camera->GetForwardVector(),RightController->GetForwardVector())>=
-	FVector::DotProduct(Camera->GetForwardVector(),LeftController->GetForwardVector()))
+	if (FVector::DotProduct(Camera->GetForwardVector(),RightController->GetActorForwardVector())>=
+	FVector::DotProduct(Camera->GetForwardVector(),LeftController->GetActorForwardVector()))
 	{
-		Start = RightController->GetComponentLocation();
-		Look = RightController->GetForwardVector();
+		Start = RightController->GetActorLocation();
+		Look = RightController->GetActorForwardVector();
 	}
 	else
 	{
-		Start = LeftController->GetComponentLocation();
-		Look = LeftController->GetForwardVector();
+		Start = LeftController->GetActorLocation();
+		Look = LeftController->GetActorForwardVector();
 	}
 }
 

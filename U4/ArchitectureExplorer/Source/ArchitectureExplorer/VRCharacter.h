@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "HandController.h"
 #include "GameFramework/Character.h"
 #include "VRCharacter.generated.h"
 
@@ -50,9 +51,10 @@ private:
 	class UCameraComponent* Camera;
 
 	UPROPERTY()
-	class UMotionControllerComponent* LeftController;
+	class AHandController* LeftController;
+	
 	UPROPERTY()
-	class UMotionControllerComponent* RightController;
+	class AHandController* RightController;
 
 	UPROPERTY()
 	class USceneComponent* VRRoot;
@@ -73,13 +75,19 @@ private:
 	UPROPERTY()
 	TArray<class USplineMeshComponent*> TeleportPathMeshPool;
 
+	
+
+
+private: 
+	
 	UPROPERTY()
 	FVector Start;
 
 	UPROPERTY()
 	FVector Look;
 
-private:
+
+private: //Configuration Parameters
 	
 	UPROPERTY(EditAnywhere)
 	float TeleportProjectileRadius = 10;
@@ -107,5 +115,9 @@ private:
 
 	UPROPERTY(EditDefaultsOnly)
 	class UMaterialInterface* TeleportArchMaterial;
+	
+	UPROPERTY(EditDefaultsOnly)
+	//class UClass* HandControllerClass; it is same thing
+	TSubclassOf<AHandController> HandControllerClass;
 
 };
