@@ -1,10 +1,9 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+/// Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-#include "Kismet/GameplayStaticsTypes.h"
 #include "VRCharacter.generated.h"
 
 UCLASS()
@@ -30,109 +29,78 @@ public:
 private:
 	
 	bool FindTeleportDestination(TArray<FVector> &OutPath, FVector &OutLocation);
-	
-	bool TeleportWithRightHand();
-	
 	void UpdateDestinationMarker();
+	void UpdateBlinkers();
 	void DrawTeleportPath(const TArray<FVector> &Path);
-	void UpdateSplinePoints(const TArray<FVector> &Path);
+	void UpdateSpline(const TArray<FVector> &Path);
+	void ChooseActiveHand();
+	FVector2D GetBlinkerCentre();
 
 	void MoveForward(float throttle);
 	void MoveRight(float throttle);
 
 	void BeginTeleport();
 	void FinishTeleport();
-	
+
 	void StartFade(float FromAlpha, float ToAlpha);
-
-	void UpdateBlinkers();
-	FVector2D GetBlinkerCentre();
-
-	
 
 private:
 	
 	UPROPERTY()
 	class UCameraComponent* Camera;
-	
+
 	UPROPERTY()
 	class UMotionControllerComponent* LeftController;
 	UPROPERTY()
 	class UMotionControllerComponent* RightController;
-	
+
 	UPROPERTY()
 	class USceneComponent* VRRoot;
+
 
 	UPROPERTY(VisibleAnywhere)
 	class USplineComponent* TeleportPath;
 
 	UPROPERTY(VisibleAnywhere)
 	class UStaticMeshComponent* DestinationMarker;
-	
+
 	UPROPERTY()
 	class UPostProcessComponent* PostProcessComponent;
 
 	UPROPERTY()
 	class UMaterialInstanceDynamic* BlinkerMaterialInstance;
-	
-	UPROPERTY()
-	TArray<class UStaticMeshComponent*> TeleportPathMeshPool;
 
 	UPROPERTY()
-	APlayerController* PC;
+	TArray<class USplineMeshComponent*> TeleportPathMeshPool;
 
 	UPROPERTY()
-	int32 ViewPortSizeX;
+	FVector Start;
 
 	UPROPERTY()
-	int32 ViewPortSizeY;
-	
-	UPROPERTY()
-	float MaxConsideredVelocity = 1;
-
-	UPROPERTY()
-	UObject* WorldContextObject;
-	
-	UPROPERTY()
-	FPredictProjectilePathParams PredictParams;
-	
-	UPROPERTY()
-	FPredictProjectilePathResult PredictResult;
-
-	UPROPERTY()
-	bool bHit = false;
-	
-	UPROPERTY()
-	int8 Hand = 3;
+	FVector Look;
 
 private:
 	
 	UPROPERTY(EditAnywhere)
-	float MaxTeleportDistance = 1000;
+	float TeleportProjectileRadius = 10;
+
+	UPROPERTY(EditAnywhere)
+	float TeleportProjectileSpeed = 800;
+
+	UPROPERTY(EditAnywhere)
+	float TeleportSimulationTime = 2;
 
 	UPROPERTY(EditAnywhere)
 	float TeleportFadeTime = 1;
 
 	UPROPERTY(EditAnywhere)
 	FVector TeleportProjectionExtent = FVector(100, 100, 100);
-	
+
 	UPROPERTY(EditAnywhere)
 	class UMaterialInterface * BlinkerMaterialBase;
 
 	UPROPERTY(EditAnywhere)
 	class UCurveFloat* RadiusVsVelocity;
-	
-	UPROPERTY(EditAnywhere)
-	float TeleportProjectileRadius = 10;
-	
-	UPROPERTY(EditAnywhere)
-	float TeleportProjectileSpeed = 800;
-	
-	UPROPERTY(EditAnywhere)
-	float CParabola;
-	
-	UPROPERTY(EditAnywhere)
-	float TeleportSimulationTime = 2;
 
 	UPROPERTY(EditDefaultsOnly)
 	class UStaticMesh* TeleportArchMesh;
@@ -140,8 +108,4 @@ private:
 	UPROPERTY(EditDefaultsOnly)
 	class UMaterialInterface* TeleportArchMaterial;
 
-	UPROPERTY(EditDefaultsOnly)
-	FVector TeleportArchScale;
-
-	
 };
