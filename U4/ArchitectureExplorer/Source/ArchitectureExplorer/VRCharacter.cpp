@@ -269,7 +269,6 @@ void AVRCharacter::MoveRight(float throttle)
 
 void AVRCharacter::BeginTeleport()
 {
-
 	StartFade(0, 1);
 
 	FTimerHandle Handle;

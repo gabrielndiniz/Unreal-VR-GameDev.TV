@@ -27,10 +27,26 @@ public:
 	
 	void SetHand(EControllerHand ControllerHand);
 	
+	//Callback
+	UFUNCTION(BlueprintCallable)
+	void ActorBeginOverlap(AActor* OverlappedActor, AActor* OtherActor, bool bNewCanClimb);
+	UFUNCTION(BlueprintCallable)
+	void ActorEndOverlap(AActor* OverlappedActor, AActor* OtherActor, bool bNewCanClimb);
+
+private:
+
+	//Helpers
+
+	bool CanClimbFunctionC() const;
+	
 private:
 	//Default sub object
 	UPROPERTY(VisibleAnywhere)
 	class UMotionControllerComponent* MotionController;
+	
 
+private:
 
+	//State
+	bool bCanClimb = false;
 };
