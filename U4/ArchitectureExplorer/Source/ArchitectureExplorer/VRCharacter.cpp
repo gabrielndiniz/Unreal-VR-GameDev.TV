@@ -17,6 +17,7 @@
 #include "Components/SplineComponent.h"
 #include "Components/SplineMeshComponent.h"
 #include "HandController.h"
+#include "GameFramework/CharacterMovementComponent.h"
 
 // Sets default values
 AVRCharacter::AVRCharacter()
@@ -64,6 +65,7 @@ void AVRCharacter::BeginPlay()
 		LeftController->AttachToComponent(VRRoot, FAttachmentTransformRules::KeepRelativeTransform);
 		LeftController->SetHand(EControllerHand::Left);
 		LeftController->SetOwner(this);
+		LeftController->GetVRPlayerController(Cast<APlayerController>(GetController()));		
 	}
 
 	RightController = GetWorld()->SpawnActor<AHandController>(HandControllerClass);
@@ -72,7 +74,10 @@ void AVRCharacter::BeginPlay()
 		RightController->AttachToComponent(VRRoot, FAttachmentTransformRules::KeepRelativeTransform);
 		RightController->SetHand(EControllerHand::Right);
 		RightController->SetOwner(this);
+		RightController->GetVRPlayerController(Cast<APlayerController>(GetController()));
 	}
+
+	LeftController->PairController(RightController);
 }
 
 // Called every frame
@@ -93,6 +98,16 @@ void AVRCharacter::Tick(float DeltaTime)
 	Look = VRRoot->GetForwardVector();
 	
 	ChooseActiveHand();
+
+	if (RightController->bIsClimbing || LeftController->bIsClimbing)
+	{
+		GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Flying);
+		bIsClimbing = true;
+	}
+	else
+	{
+		bIsClimbing = false;
+	}
 }
 
 bool AVRCharacter::FindTeleportDestination(TArray<FVector> &OutPath, FVector &OutLocation)
@@ -152,10 +167,14 @@ void AVRCharacter::UpdateDestinationMarker()
 
 void AVRCharacter::UpdateBlinkers()
 {
+	if (bIsClimbing)
+	{
+		return;
+	}
 	if (RadiusVsVelocity == nullptr) return;
 
 	float Speed = GetVelocity().Size();
-	float Radius = RadiusVsVelocity->GetFloatValue(Speed);
+	float Radius = RadiusVsVelocity->GetFloatValue(Speed) * RadiusBlinkerMultiplicator;
 
 	BlinkerMaterialInstance->SetScalarParameterValue(TEXT("Radius"), Radius);
 
@@ -255,6 +274,10 @@ void AVRCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAxis(TEXT("Move_Y"), this, &AVRCharacter::MoveForward);
 	PlayerInputComponent->BindAxis(TEXT("Move_X"), this, &AVRCharacter::MoveRight);
 	PlayerInputComponent->BindAction(TEXT("Teleport"), IE_Released, this, &AVRCharacter::BeginTeleport);
+	PlayerInputComponent->BindAction(TEXT("GripLeft"), IE_Pressed, this, &AVRCharacter::GripLeft);
+	PlayerInputComponent->BindAction(TEXT("GripLeft"), IE_Released, this, &AVRCharacter::ReleaseLeft);
+	PlayerInputComponent->BindAction(TEXT("GripRight"), IE_Pressed, this, &AVRCharacter::GripRight);
+	PlayerInputComponent->BindAction(TEXT("GripRight"), IE_Released, this, &AVRCharacter::ReleaseRight);
 }
 
 void AVRCharacter::MoveForward(float throttle)

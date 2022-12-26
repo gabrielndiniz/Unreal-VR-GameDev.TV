@@ -26,6 +26,10 @@ public:
 public:
 	
 	void SetHand(EControllerHand ControllerHand);
+	void PairController(AHandController* Controller);
+
+	void Grip();
+	void Release();
 	
 	//Callback
 	UFUNCTION(BlueprintCallable)
@@ -33,20 +37,42 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void ActorEndOverlap(AActor* OverlappedActor, AActor* OtherActor, bool bNewCanClimb);
 
+	void GetVRPlayerController(APlayerController* PlayerController);
+
 private:
 
 	//Helpers
 
 	bool CanClimbFunctionC() const;
+
+	APlayerController* VRPlayerController;
 	
 private:
 	//Default sub object
 	UPROPERTY(VisibleAnywhere)
 	class UMotionControllerComponent* MotionController;
 	
+	UPROPERTY()
+	EControllerHand ThisControllerHand;
 
+	//Parameters
+	UPROPERTY(EditDefaultsOnly)
+	class UHapticFeedbackEffect_Base* HapticEffect;
+	
+
+	
 private:
 
 	//State
 	bool bCanClimb = false;
+
+	AHandController* OtherController;
+
+public:
+	//State
+	UPROPERTY(BlueprintReadWrite)
+	bool bIsClimbing = false;
+
+	UPROPERTY(BlueprintReadWrite)
+	FVector ClimbingStartLocation;
 };

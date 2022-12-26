@@ -40,6 +40,12 @@ private:
 	void MoveForward(float throttle);
 	void MoveRight(float throttle);
 
+	void GripLeft() {LeftController->Grip();};
+	void ReleaseLeft() {LeftController->Release();};
+
+	void GripRight() {RightController->Grip();};
+	void ReleaseRight() {RightController->Release();};
+
 	void BeginTeleport();
 	void FinishTeleport();
 
@@ -51,10 +57,10 @@ private:
 	class UCameraComponent* Camera;
 
 	UPROPERTY()
-	class AHandController* LeftController;
+	AHandController* LeftController;
 	
 	UPROPERTY()
-	class AHandController* RightController;
+	AHandController* RightController;
 
 	UPROPERTY()
 	class USceneComponent* VRRoot;
@@ -86,6 +92,8 @@ private:
 	UPROPERTY()
 	FVector Look;
 
+	bool bIsClimbing = false;
+
 
 private: //Configuration Parameters
 	
@@ -100,6 +108,9 @@ private: //Configuration Parameters
 
 	UPROPERTY(EditAnywhere)
 	float TeleportFadeTime = 1;
+
+	UPROPERTY(EditAnywhere)
+	float RadiusBlinkerMultiplicator = 3;
 
 	UPROPERTY(EditAnywhere)
 	FVector TeleportProjectionExtent = FVector(100, 100, 100);

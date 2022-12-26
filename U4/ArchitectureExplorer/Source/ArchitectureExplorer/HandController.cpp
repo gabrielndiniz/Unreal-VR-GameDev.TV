@@ -3,9 +3,8 @@
 
 #include "HandController.h"
 #include "MotionControllerComponent.h"
-#include "Components/BoxComponent.h"
-#include "Components/SphereComponent.h"
 #include "GameFramework/Actor.h"
+#include "GameFramework/PhysicsVolume.h"
 
 // Sets default values
 AHandController::AHandController()
@@ -29,15 +28,23 @@ void AHandController::BeginPlay()
 void AHandController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	
-	
+
+
 }
 
 void AHandController::SetHand(EControllerHand ControllerHand)
 {
+	ThisControllerHand = ControllerHand;
 	MotionController->SetTrackingSource(ControllerHand);
 	MotionController->bDisplayDeviceModel = true;
 }
+
+void AHandController::PairController(AHandController* Controller)
+{
+	OtherController = Controller;
+	OtherController->OtherController = this;
+}
+
 
 void AHandController::ActorBeginOverlap(AActor* OverlappedActor, AActor* OtherActor, bool bNewCanClimb)
 {
@@ -45,7 +52,7 @@ void AHandController::ActorBeginOverlap(AActor* OverlappedActor, AActor* OtherAc
 	//bool bNewCanClimb = CanClimbFunctionC();
 	if (!bCanClimb && bNewCanClimb)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Can Climb!"))
+		VRPlayerController->PlayHapticEffect(HapticEffect, ThisControllerHand);
 	}
 	bCanClimb = bNewCanClimb;
 }
@@ -54,6 +61,12 @@ void AHandController::ActorEndOverlap(AActor* OverlappedActor, AActor* OtherActo
 {
 	bCanClimb = bNewCanClimb;
 }
+
+void AHandController::GetVRPlayerController(APlayerController* PlayerController)
+{
+	VRPlayerController = PlayerController;
+}
+
 
 bool AHandController::CanClimbFunctionC() const
 {
@@ -69,5 +82,32 @@ bool AHandController::CanClimbFunctionC() const
 		}
 	}
 	return false;
+}
+
+void AHandController::Grip()
+{
+	if (!bCanClimb)
+	{
+		return;
+	}
+
+	if (!bIsClimbing)
+	{
+		ClimbingStartLocation = GetActorLocation();
+
+		bIsClimbing = true;
+	}
+
+	if (OtherController->bIsClimbing)
+	{
+		OtherController->Release();
+	}
+
+}
+
+void AHandController::Release()
+{
+	bIsClimbing = false;
+	
 }
 
